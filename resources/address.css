@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+header
+{
+	margin:20px 10px 40px 10px;
+	font-family:"Freestyle Script","Mistral";
+	font-size:60px;
+	text-shadow:3px 3px 8px gray;
+	text-align:center;
+}
+
+body{
+	font-family: 'Jua', sans-serif;
+	color:black;
+	font-family:'맑은 고딕', '돋음', '고딕';
+}
+
+
+#sect{
+	font-family: 'Jua', sans-serif;
+	background-color:#FDF2EE;
+	text-align:center;
+	margin:20px;
+	padding:20px;
+}
+h2{
+	text-align=center;
+	magrin-top:30px;
+	margin-bottom:30px;
+	font-family:"Freestyle Script","Mistral";
+	font-size:40px;
+	text-shadow:3px 3px 10px gray;
+}
+
+tr td{
+	font-family: 'Jua', sans-serif;
+	font-size:20px;
+	border:1px solid lightgray;
+	height:30px;
+	padding:5px;
+	color:#000000;
+	background-color:#EAF2D3;
+}

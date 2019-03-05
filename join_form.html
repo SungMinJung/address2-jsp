@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주소록</title>
+<link rel="stylesheet" href="resources/address.css" type="text/css"></link>
+<link href="https://fonts.googleapis.com/css?family=Jua&amp;subset=korean" rel="stylesheet"></link>
+<style>
+body{
+		background-image:url('resources/introduction3.gif');
+	background-attechment:fixed;
+	background-repeat:no-repeat;
+	background-size: 100% 120%;
+}
+</style>
+</head>
+<body>
+	<div align="center">
+	<header>Registration Form</header>
+	<hr>
+	<form name="form1" method="post" action="http://localhost:8080/kpu_club2/AddrServlet?key=join">
+	<table>
+		<tr>
+			<td>이름</td>
+			<td><input type=text size=20 name=username autofocus required placeholder="공백없이 입력하세요"></td>
+		</tr>
+		<tr>
+			<td>전화번호</td>
+			<td><input type=text size=20 name=tel placeholder="***.****.***"></td>
+		</tr>
+		<tr>
+			<td>이메일</td>
+			<td><input type=text size=20 name=email placeholder="****@****.***"></td>
+		</tr>
+		<tr>
+			<td>성별</td>
+			<td>
+				<select name=sex>
+					<option selected>남</option>
+					<option>여</option>
+				</select>
+			</td>
+		</tr>
+		<tr><td colspan=2 align=center>
+			<input type=submit value="확인">
+			<input type=reset value="취소">
+		</tr>
+	</table>
+	</form>
+	</div>
+
+</body>
+</html>
